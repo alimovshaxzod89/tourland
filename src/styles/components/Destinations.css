@@ -1,0 +1,44 @@
+/* styles.css */
+  .swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #007aff;
+  }
+
+  .swiper-slide{
+    overflow: hidden;
+  }
+
+  .swiper-slide > div{
+    width: 320px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 0 0 30px 0;
+  }
+  
+  .swiper-slide .imgone{
+    background-image: url('https://tourland.uz/assets/panda-mRCbW3Hl.jpg');
+  }
+  .swiper-slide .imgtwo{
+    background-image: url('https://tourland.uz/assets/koprik-b7PL2tNS.webp');
+  }
+  .swiper-slide .imgtree{
+    background-image: url('https://tourland.uz/assets/togq-5qZptA62.jpeg');
+  }
+  .swiper-slide .imgfour{
+    background-image: url('https://tourland.uz/assets/ftoq-67oyKgOd.jpeg');
+  }
+  .swiper-slide .imgfive{
+    background-image: url('https://tourland.uz/assets/xitoy1-CA1GqbQ_.jpg');
+  }
+  .swiper-slide .imgsix{
+    background-image: url('https://tourland.uz/assets/xitoy2-CZ6SZdr1.jpg');
+  }
+  

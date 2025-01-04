@@ -1,0 +1,25 @@
+.slide{
+    background-image: url('https://tourland.uz/assets/xitoy2-CZ6SZdr1.jpg');
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+}
+.contact-button{
+    animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    50% {
+      transform: scale(1.2);
+      box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.623);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
