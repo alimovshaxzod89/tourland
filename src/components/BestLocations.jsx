@@ -69,7 +69,7 @@ const Gallery = () => {
             <div
               className={`absolute flex justify-between bottom-0 text-white bg-opacity-50 p-2 rounded-b-xl transition-all duration-500 ease-in-out`}
             >
-              <div className="bg-white text-main h-[40px] w-[40px] rounded-full grid place-items-center mr-4 ml-2">
+              <div className="hidden md:grid bg-white text-main h-[40px] w-[40px] rounded-full place-items-center mr-4 ml-2">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"

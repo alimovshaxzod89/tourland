@@ -17,7 +17,7 @@ function Swiper() {
               China
             </h1>
             {/* bg-main */}
-            <button className="contact-button animate-ping bg-blue-400 text-white rounded-3xl text-[14px] h-[47px] px-10 font-semibold mb-14 md:mb-28 hover:bg-white hover:text-main hover:border-main hover:border-[1px] transition-colors duration-500 btncolor">
+            <button className="contact-button animate-ping bg-blue-400 text-white rounded-3xl text-[14px] h-[47px] px-10 font-semibold mb-14 md:mb-28 hover:bg-white hover:text-blue-400 hover:border-main hover:border-[1px] transition-colors duration-500 btncolor">
               Contact us
             </button> 
           </div>
