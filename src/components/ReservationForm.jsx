@@ -2,7 +2,7 @@ import React from 'react'
 
 function ReservationForm() {
   return (
-    <div className='reservation-form max-w-[1380px] px-5 mx-auto'>
+    <div className='reservation-form max-w-[1380px] px-5 mx-auto mb-20'>
         <div className='bg-[#f9f9f9] p-6 rounded-b-3xl shadow-xl flex flex-col items-center pb-16'>
             <h2 className='font-bold sm:text-3xl text-xl my-12 text-center'>Make Your Reservation Thrugh This Form </h2>
             <form className='flex flex-col gap-6 w-[80%]'>
@@ -51,7 +51,7 @@ function ReservationForm() {
                     <small className="-mt-2 ml-2 text-red-500"></small>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <label for="visa">Choose Your Visa Support</label>
+                    <label htmlFor="visa">Choose Your Visa Support</label>
                     <select name="visa" id="visa" className="w-full sm:text-lg text-[12px] cursor-pointer bg-none rounded-2xl p-2 outline-none border-[1px] border-[#AFAFAF]">
                         <option disabled="" hidden="" value="">Ex. China.</option>
                         <option value="USA"> Сиань</option>

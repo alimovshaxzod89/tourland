@@ -1,28 +1,20 @@
-import React from "react";
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
-
-const containerStyle = {
-  width: "100%",
-  height: "400px",
-};
-
-const center = {
-  lat: 41.2974, // Tashkent koordinatalari
-  lng: 69.2564,
-};
+import React from 'react';
 
 const MapComponent = () => {
   return (
-    <LoadScript googleMapsApiKey="AIzaSyApdnBLqJeVW4c5tlZ32vBBzVBVWyJnYlg">
-      <GoogleMap
-        mapContainerStyle={containerStyle}
-        center={center}
-        zoom={12}
-      >
-        {/* Markerni joylashtirish */}
-        <Marker position={center} />
-      </GoogleMap>
-    </LoadScript>
+    <>
+      <div className='max-w-[1380px] px-5 mx-auto'>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12283.847771465045!2d66.86775635!3d39.67307065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1736531724422!5m2!1sru!2s"
+          width="100%"
+          height="450"
+          style={{ border: '0', borderRadius: '20px 20px 0 0',  }}
+          allow=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </>
   );
 };
 

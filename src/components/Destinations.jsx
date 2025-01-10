@@ -10,10 +10,10 @@ function Destinations() {
   return (
     <div className="mb-10 mt-40">
       <div className="max-w-[1380px] px-5 mx-auto">
-        <h2 class="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
+        <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
           Top 10 Beautiful Destinations for Unforgettable Travels
         </h2>
-        <p class="text-center text-[12px] sm:text-[15px] text-[#01294c] max-w-[627px] mx-auto mt-6 mb-20">
+        <p className="text-center text-[12px] sm:text-[15px] text-[#01294c] max-w-[627px] mx-auto mt-6 mb-20">
           Every week, new opportunities and unexpected adventures await you!
           Each city reveals its hidden beauty, offering you new adventures. Feel
           like you are part of these wonders!

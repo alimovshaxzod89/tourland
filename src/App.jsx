@@ -6,13 +6,13 @@ import AboutTrips from "./components/AboutTrips";
 import Services from "./components/Services";
 import BestLocations from './components/BestLocations'
 import Reservations from "./components/Reservations";
-// import MapComponent from "./components/MapComponent";
+import MapComponent from "./components/MapComponent";
 import ReservationForm from "./components/ReservationForm";
 import Footer from "./components/Footer";
-import Loader from "./components/Loader"; // Loader komponentini import qilish
+import Loader from "./components/Loader"; 
 
 function App() {
-  const [loading, setLoading] = useState(true); // Yuklanish holatini boshqarish
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -34,7 +34,7 @@ function App() {
       <Services />
       <BestLocations />
       <Reservations />
-      {/* <MapComponent /> */}
+      <MapComponent />
       <ReservationForm />
       <Footer />
     </>

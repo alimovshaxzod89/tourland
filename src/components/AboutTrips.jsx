@@ -10,9 +10,9 @@ function AboutTrips() {
   return (
     <div className="mb-10 mt-24">
       <div className="max-w-[1900px] mx-auto">
-        <h2 class="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
+        <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
           We offer exclusive trips to these destinations!        </h2>
-        <p class="text-center text-[12px] sm:text-[15px] text-[#01294c] max-w-[627px] mx-auto mt-6 mb-20">
+        <p className="text-center text-[12px] sm:text-[15px] text-[#01294c] max-w-[627px] mx-auto mt-6 mb-20">
           We organize comfortable and safe trips to Chinese cities just for you!
         </p>
 
@@ -45,7 +45,7 @@ function AboutTrips() {
               <h3 className="text-lg font-bold">Hainan</h3>
               <p className="text-sm text-slate-400">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -54,9 +54,9 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 120 Check Ins
@@ -67,7 +67,7 @@ function AboutTrips() {
               </h4>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -81,7 +81,7 @@ function AboutTrips() {
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -90,16 +90,16 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 Short Processing Time
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -109,16 +109,16 @@ function AboutTrips() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M5 11.917 9.724 16.5 19 7.5"
                   />
                 </svg>
                 Trustworthy Assistance
               </p>
               <button
-                class="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
+                className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
                py-2 px-4"
               >
                 Make A Reservation
@@ -131,7 +131,7 @@ function AboutTrips() {
               <h3 className="text-lg font-bold">Hainan</h3>
               <p className="text-sm text-slate-400">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -140,9 +140,9 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 120 Check Ins
@@ -153,7 +153,7 @@ function AboutTrips() {
               </h4>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -167,7 +167,7 @@ function AboutTrips() {
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -176,16 +176,16 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 Short Processing Time
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -195,16 +195,16 @@ function AboutTrips() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M5 11.917 9.724 16.5 19 7.5"
                   />
                 </svg>
                 Trustworthy Assistance
               </p>
               <button
-                class="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
+                className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
                py-2 px-4"
               >
                 Make A Reservation
@@ -217,7 +217,7 @@ function AboutTrips() {
               <h3 className="text-lg font-bold">Hainan</h3>
               <p className="text-sm text-slate-400">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -226,9 +226,9 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 120 Check Ins
@@ -239,7 +239,7 @@ function AboutTrips() {
               </h4>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -253,7 +253,7 @@ function AboutTrips() {
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -262,16 +262,16 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 Short Processing Time
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -281,16 +281,16 @@ function AboutTrips() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M5 11.917 9.724 16.5 19 7.5"
                   />
                 </svg>
                 Trustworthy Assistance
               </p>
               <button
-                class="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
+                className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
                py-2 px-4"
               >
                 Make A Reservation
@@ -303,7 +303,7 @@ function AboutTrips() {
               <h3 className="text-lg font-bold">Hainan</h3>
               <p className="text-sm text-slate-400">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -312,9 +312,9 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 120 Check Ins
@@ -325,7 +325,7 @@ function AboutTrips() {
               </h4>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -339,7 +339,7 @@ function AboutTrips() {
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -348,16 +348,16 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 Short Processing Time
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -367,16 +367,16 @@ function AboutTrips() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M5 11.917 9.724 16.5 19 7.5"
                   />
                 </svg>
                 Trustworthy Assistance
               </p>
               <button
-                class="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
+                className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
                py-2 px-4"
               >
                 Make A Reservation
@@ -389,7 +389,7 @@ function AboutTrips() {
               <h3 className="text-lg font-bold">Hainan</h3>
               <p className="text-sm text-slate-400">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -398,9 +398,9 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 120 Check Ins
@@ -411,7 +411,7 @@ function AboutTrips() {
               </h4>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -425,7 +425,7 @@ function AboutTrips() {
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -434,16 +434,16 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 Short Processing Time
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -453,16 +453,16 @@ function AboutTrips() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M5 11.917 9.724 16.5 19 7.5"
                   />
                 </svg>
                 Trustworthy Assistance
               </p>
               <button
-                class="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
+                className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
                py-2 px-4"
               >
                 Make A Reservation
@@ -475,7 +475,7 @@ function AboutTrips() {
               <h3 className="text-lg font-bold">Hainan</h3>
               <p className="text-sm text-slate-400">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -484,9 +484,9 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 120 Check Ins
@@ -497,7 +497,7 @@ function AboutTrips() {
               </h4>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -511,7 +511,7 @@ function AboutTrips() {
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -520,16 +520,16 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 Short Processing Time
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -539,16 +539,16 @@ function AboutTrips() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M5 11.917 9.724 16.5 19 7.5"
                   />
                 </svg>
                 Trustworthy Assistance
               </p>
               <button
-                class="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
+                className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
                py-2 px-4"
               >
                 Make A Reservation
@@ -561,7 +561,7 @@ function AboutTrips() {
               <h3 className="text-lg font-bold">Hainan</h3>
               <p className="text-sm text-slate-400">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -570,9 +570,9 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 120 Check Ins
@@ -583,7 +583,7 @@ function AboutTrips() {
               </h4>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -597,7 +597,7 @@ function AboutTrips() {
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -606,16 +606,16 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 Short Processing Time
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -625,16 +625,16 @@ function AboutTrips() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M5 11.917 9.724 16.5 19 7.5"
                   />
                 </svg>
                 Trustworthy Assistance
               </p>
               <button
-                class="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
+                className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
                py-2 px-4"
               >
                 Make A Reservation
@@ -647,7 +647,7 @@ function AboutTrips() {
               <h3 className="text-lg font-bold">Hainan</h3>
               <p className="text-sm text-slate-400">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -656,9 +656,9 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 120 Check Ins
@@ -669,7 +669,7 @@ function AboutTrips() {
               </h4>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -683,7 +683,7 @@ function AboutTrips() {
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -692,16 +692,16 @@ function AboutTrips() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 Short Processing Time
               </p>
               <p className="text-slate-400 text-sm">
                 <svg
-                  class="w-4 h-4 m-2 inline-block"
+                  className="w-4 h-4 m-2 inline-block"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -711,16 +711,16 @@ function AboutTrips() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M5 11.917 9.724 16.5 19 7.5"
                   />
                 </svg>
                 Trustworthy Assistance
               </p>
               <button
-                class="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
+                className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black
                py-2 px-4"
               >
                 Make A Reservation
