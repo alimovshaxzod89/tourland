@@ -1,0 +1,104 @@
+{
+    "Home": "Bosh Sahifa",
+    "About": "Biz Haqimizda",
+    "Tours": "Turlar",
+    "Contract": "Kontaktlar",
+
+    "hero-text": "Sharqning go'zalliklarini biz bilan birgalikda his eting!",
+    "hero-title": "Xitoy",
+    "hero-button-title": "Biz bilan bog'laning",
+
+    "destinations-title": "Unutilmas Sayohatlar Uchun Top 10 Go‘zal Maskan",
+    "destinations-text": "Sizni har hafta yangi imkoniyatlar va kutilmagan sarguzashtlar kutmoqda! Har bir shahar o‘zining maxfiy go‘zalliklarini ochib, sizga yangi sarguzashtlar sovg‘a qiladi. O‘zingizni shu mo‘jizalarning bir qismi deb his qiling!",
+
+    "about-title": "Ushbu manzillarga eksklyuziv sayohatlar taklif qilamiz!",
+    "about-text": "Xitoy shaharlarga siz uchun qulay va xavfsiz sayohatlar tashkil etamiz!",
+    "firstItem":{
+        "title": "Shenzhen",
+        "checkIns": "340 Buyurtmalar",
+        "benefits": [
+            "Eng arzon narxlar",
+            "Tezkor ishlash vaqti",
+            "Ishonchli yordam"
+        ]
+    },
+    "secondItem": {
+        "title": "Maldiv"
+    },
+    "thirdItem": {
+        "title": "Bali"
+    },
+    "fourthItem": {
+        "title": "Paris"
+    },
+    "fifth": {
+        "title": "Dubai"
+    },
+    "sixth": {
+        "title": "Tokyo"
+    },
+    "benifit-support": "Viza qo'llab-quvvatlashimizning afzalliklari",
+
+    "services-title": "Biz Bilan Chiptalarni Arzon va Oson Toping.",
+    "services-text": "Har bir shaharda eng yaxshi temir yo‘l va aviachipta biletlarini biz bilan toping",
+    "service-item-one-title": "Temir Yo'l Bileti Biz Bilan",
+    "service-item-one-short": "Butun dunyo bo'ylab",
+    "service-item-one-text":"Temir yo'l orqali biz bilan sarguzashtlarni kashf eting! Baland tog'larni, betakror tabiat manzalarni, qadimiy va navqiron shaharlarni, takrorlanmas landshaflarni biz bilan birga toping. Qiziqarlimi? Biz bilan bog'laning.",
+    "service-item-two-title": "Aviabiletlar Biz Bilan Arzon",
+    "service-item-two-short": "Jahon bo'ylab Manzillar",
+    "service-item-two-text": "Eng arzon, qulay, xavfsiz aviabiletlar biz bilan! Bizga bog'laning, biz sizga eng maqbul bo'ladigan aviabilerni topib beramiz",
+    "service-item-three-title": "Choy madaniyati",
+    "service-item-three-short": "Xitoyning choy madaniyati",
+    "service-item-three-text": "Xitoy choy madaniyati asrlar davomida shakllangan va dunyodagi eng qadimiy an'analardan biridir. Choy ichish Xitoy xalqining kundalik hayotining ajralmas qismiga aylangan bo‘lib, bu madaniyat nafaqat ichimlikni tayyorlash uslubini, balki sog‘liq va ruhiyatga bo‘lgan hurmatni ham aks ettiradi.",
+    "service-item-four-title": "Osmon osti mamlakati",
+    "service-item-four-short": "Xitoy Osmon osti mamlakati",
+    "service-item-four-text": "(Xitoy tilida Tiānxià — 天下) tushunchasi Xitoy madaniyatida va tarixida muhim ahamiyatga ega. Bu qadimiy ibora Xitoyni va u bilan bog‘liq bo‘lgan dunyoqarashni tasvirlash uchun ishlatiladi. Osmon osti mamlakati tushunchasi Xitoy imperatorlik davrida shakllangan bo‘lib, Osmon (Tian) hukmronlik qiladigan joy sifatida ko‘rilgan va bu hukmronlik er yuzidagi barcha narsalarga taalluqli deb qaralgan.",
+   "service-item-six-title": "Xitoy oshxonasi",
+    "service-item-six-short": "Xitoy oshxonasining xilma-xilligi",
+    "service-item-six-text": "Xitoy oshxonasi butun dunyoda mashhur bo‘lib, taomlarning xilma-xilligi bilan ajralib turadi. Har bir viloyat o‘ziga xos taomlari bilan tanilgan, masalan, Siçuan taomlari o‘tkir, Pekin esa Pekin o‘rdagi bilan mashhur",
+    "service-item-seven-title": "Pandalar vatani",
+    "service-item-seven-short": "Pandalar – Xitoyning diplomatik ramzi",
+    "service-item-seven-text": "Gigant pandalar Xitoy diplomatiyasida muhim rol o‘ynaydi. Xitoy o‘z pandalarini boshqa davlatlarga diplomatik munosabatlarni mustahkamlash maqsadida vaqtincha ijaraga berib kelgan. Bu panda diplomatiyasi deb ataladi va Xitoyning xalqaro hamkorlar bilan aloqalarini mustahkamlashda ishlatiladi. Ijaraga olingan pandalar dunyodagi turli hayvonot bog‘larida bo‘lib, ularning ko‘pini AQSh, Yaponiya, va Yevropa davlatlarida ko‘rish mumkin.",
+    "explore-more": "Ko'proq Bilish" ,
+    "interesting-facts": "Xitoy Haqida Qiziqarli Faktlar",
+    "interesting-facts-text": "Bilamizkiy, Xitoy o‘ziga xos bog‘ madaniyatiga va tarixiga ega. Biz sizga bu bo‘limda qiziqarli ma'lumotlarni taqdim etamiz.",
+    "need-directions": "Qiziqarlimi ?",
+    "mln": "mln",
+    "km": "km<sub>2<sub>",
+
+    "best-locations-title": "Eng Yaxshi Manzillar",
+    "best-locations-text": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
+    "population": "Aholisi",
+
+    "booking-title": "O'z joyingizni band qiling",
+    "booking-text": "O'zingiz yoqtirganingizni tanlang",
+    "booking-button": "Ko'proq Bilish",
+    "booking-phone": "Telefon raqam",
+    "booking-email": "Bizga email orqali bog'laning",
+    "booking-location": "Offisimizga tashrif buyuring",
+    "booking-location-two": "Yakkasaroy tumani, Bo'rifar ko'chasi 1-uy",
+
+    "reservation-title": "O'z joyingizni band qiling",
+    "name-label": "Ismingiz",
+    "number-of-guests-label": "Necha kishisiz",
+    "destination-label": "Manzilingizni tanlang",
+    "visa-support-label": "Visa turini tanlang",
+    "phone-number-label": "Telefon raqamingiz",
+    "date-label": "Uchish sanasi",
+    "booking-submit": "Band Qilish",
+    "name-placeholder": "Misol. Palonchi Palonchiyev",
+    "phone-number-placeholder": "Misol. +998 99 999 99 90",
+    "number-of-guests-placeholder": "Misol. 3 yoki 4 yoki 5",
+    "destination-placeholder": "Misol. Pekin ",
+    "visa-support-placeholder": "Misol.Xitoy .",
+    "date-placeholder": "дд.мм.гггг",
+
+    "footer-title": "Tourland sifatli va ishonchli xizmatni kafolatlaydi.",
+    "footer-text": "Siz eng yaxshisiga loyiqsiz, Tourlend — eng yaxshi tanlov!",
+    "links": "Foydali Linklar",
+    "resources": "Boshqa Resurslar",
+    "footer-home": "Bosh Sahifa",
+    "footer-about": "Biz Haqimizda",
+    "footer-tours": "Turlar",
+    "footer-contacts": "Kontaktlar"
+}

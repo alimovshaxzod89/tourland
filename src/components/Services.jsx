@@ -1,82 +1,84 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 function Services() {
+    const {t, i18n} = useTranslation();
   return (
     <div className="mb-10 mt-24">
         <div className="max-w-[1340px] px-5 mx-auto">
             <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
-                Find Tickets With us Easily and at a Low Price
+                {t('services-title')}
             </h2>
             <p className="text-center text-[12px] sm:text-[15px] text-[#01294c] max-w-[627px] mx-auto mt-6 mb-20">
-                Find the best deals on railway and airplane tickets in each <br /> city, carefully selected for you.
+                {t('services-text')}
             </p>
         
             <div className='flex flex-col md:flex-row justify-between'>
-                <div className='h-[370px] md:h-[227px] md:w-[70%] rounded-3xl overflow-hidden'>
+                <div className='h-[370px] md:h-[227px] md:w-[70%] lg:w-4/12 rounded-3xl overflow-hidden'>
                     <img src="https://tourland.uz/assets/traynn-BfK8u_Cu.jpg" className='w-full h-full object-cover object-center' alt="" />
                 </div>
-                <div className='flex flex-col  justify-around mt-6 md:mt-0'>
+                <div className='flex flex-col justify-around md:w-full lg:w-8/12  mt-6 md:mt-0'>
                     <div className='flex flex-row justify-between items-center px-6'>
                         <div>
-                            <h3 className='font-bold'>Cheap Realway Tickets With Us</h3>
+                            <h3 className='font-bold'> {t('service-item-one-title')} </h3>
                         </div>
                         <button
                             className="h-10 flex justify-center items-center bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black px-4 md:mt-0"
                         >
-                            Explore More
+                            {t('explore-more')}
                         </button>
                     </div>
-                    <p className='text-slate-400 text-sm px-6 mt-4 '>Whole world</p>
+                    <p className='text-slate-400 text-sm px-6 mt-4 '> {t('service-item-one-short')} </p>
                     <p className='text-slate-400 text-sm p-6 leading-8'>
-                        Embark on a railway adventure and explore destinations worldwide. Whether its the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network.
+                        {t('service-item-one-text')}
                     </p>
                 </div>
             </div>
             <hr className='my-10' />
             <div className='flex flex-col md:flex-row justify-between'>
-                <div className='h-[370px] md:h-[227px] md:w-[70%]  rounded-3xl overflow-hidden'>
+                <div className='h-[370px] md:h-[227px] md:w-[70%] lg:w-4/12  rounded-3xl overflow-hidden'>
                     <img src="https://tourland.uz/assets/plane-DQcqRSto.jpg" className='w-full h-full object-cover object-center' alt="" />
                 </div>
-                <div className='flex flex-col justify-around mt-6 md:mt-0'>
+                <div className='flex flex-col justify-around md:w-full lg:w-8/12 mt-6 md:mt-0'>
                     <div className='flex flex-row justify-between items-center px-6'>
                         <div>
-                            <h3 className='font-bold'>Discover Exciting Air Travel Deals</h3>
+                            <h3 className='font-bold'>{t('service-item-two-title')}</h3>
                         </div>
                         <button
                             className="h-10 flex justify-center items-center bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black px-4 md:mt-0"
                         >
-                            Explore More
+                            {t('explore-more')}
                         </button>
                     </div>
-                    <p className='text-slate-400 text-sm px-6'>Global Destinations</p>
+                    <p className='text-slate-400 text-sm px-6'>{t('service-item-two-short')}</p>
                     <p className='text-slate-400 text-sm p-6 leading-8'>
-                        Embark on a railway adventure and explore destinations worldwide. Whether its the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network.
+                        {t('service-item-two-text')}                    
                     </p>
                 </div>
             </div>
 
             <h2 className="mt-20 text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
-                Interesting facts about China
+                {t('interesting-facts')}
             </h2>
-            <p className='my-4'>China has a unique garden culture and history. In this section, we will provide you with interesting information.</p>
+            <p className='my-4'>{t('interesting-facts-text')}</p>
             <div className='flex flex-col md:flex-row justify-between'>
-                <div className='h-[370px] md:h-[227px] md:w-[70%] rounded-3xl overflow-hidden'>
+                <div className='h-[370px] md:h-[227px] md:w-[70%] lg:w-4/12 rounded-3xl overflow-hidden'>
                     <img src="https://tourland.uz/assets/choy-w3JqHud4.jpg" className='w-full h-full object-cover object-center' alt="" />
                 </div>
-                <div className='flex flex-col justify-around mt-6 md:mt-0'>
+                <div className='flex flex-col justify-around md:w-full lg:w-8/12 mt-6 md:mt-0'>
                     <div className='flex flex-row justify-between items-center px-6'>
                         <div>
-                            <h3 className='font-bold text-center '>Tea culture</h3>
+                            <h3 className='font-bold text-center '>{t('service-item-three-title')}</h3>
                         </div>
                         <button
                             className="h-10 flex justify-center items-center bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black px-4 md:mt-0"
                         >
-                            Explore More
+                            {t('explore-more')}
                         </button>
                     </div>
-                    <p className='text-slate-400 text-sm px-6'>Chinese Tea Culture</p>
+                    <p className='text-slate-400 text-sm px-6'>{t('service-item-three-short')}</p>
                     <p className='text-slate-400 text-sm p-6 leading-8'>
-                    Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit.</p>
+                    {t('service-item-three-text')}</p>
                     <hr className='mx-4'/>
                     <div className='flex justify-between px-6 py-4'>
                         <p className='text-slate-400 text-sm'><svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path></svg>8.66 M</p>
@@ -85,30 +87,31 @@ function Services() {
                     </div>
                     <hr className='mx-4'/>
                     <div className='p-4'>
-                        <a href="#" className='text-blue-300'>Need Directions? <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="inline-block text-2xl transform transition-transform duration-300 group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"></path></svg> </a>
+                        <a href="#" className='text-blue-300'>{t('need-directions')}<svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="inline-block text-2xl transform transition-transform duration-300 group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"></path></svg> </a>
                     </div>
                 </div>
             </div>
             <hr className='my-8' />
             <div className='flex flex-col md:flex-row justify-between'>
-                <div className='h-[370px] md:h-[227px] md:w-[70%]  rounded-3xl overflow-hidden'>
+                <div className='h-[370px] md:h-[227px] md:w-[70%] lg:w-4/12  rounded-3xl overflow-hidden'>
                     <img src="https://tourland.uz/assets/fakt2-D3v8jOP9.jpg" className='w-full h-full object-cover object-center' alt="" />
                 </div>
-                <div className='flex flex-col justify-around mt-6 md:mt-0'>
+                <div className='flex flex-col justify-around md:w-full lg:w-8/12 mt-6 md:mt-0'>
                     <div className='flex flex-row justify-between items-center px-6'>
                         <div>
-                            <h3 className='font-bold'>The Middle Kingdom
+                            <h3 className='font-bold'>
+                                {t('service-item-four-title')}
                             </h3>
                         </div>
                         <button
                             className="h-10 flex justify-center items-center bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black px-4 :mt-0"
                         >
-                            Explore More
+                            {t('explore-more')}
                         </button>
                     </div>
-                    <p className='text-slate-400 text-sm px-6'>China, The Middle Kingdom</p>
+                    <p className='text-slate-400 text-sm px-6'>{t('service-item-four-short')}</p>
                     <p className='text-slate-400 text-sm p-6 leading-8 text-center md:text-left'>
-                        (In Chinese, Tiānxià — 天下) is a concept of great significance in Chinese culture and history. This ancient phrase is used to describe China and the worldview associated with it. The concept of the Middle Kingdom developed during the imperial era of China, where it was seen as the place ruled by Heaven (Tian), and this rule was considered to extend to everything on Earth.
+                        {t('service-item-four-text')}
                     </p>
                     <hr className='mx-4'/>
                     <div className='flex justify-between px-6 py-4'>
@@ -118,7 +121,7 @@ function Services() {
                     </div>
                     <hr className='mx-4'/>
                     <div className='p-4'>
-                        <a href="#" className='text-blue-300'>Need Directions? <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="inline-block text-2xl transform transition-transform duration-300 group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"></path></svg> </a>
+                        <a href="#" className='text-blue-300'>{t('need-directions')}<svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="inline-block text-2xl transform transition-transform duration-300 group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"></path></svg> </a>
                     </div>
                 </div>
             </div>
@@ -128,20 +131,20 @@ function Services() {
                 <div className='h-[370px] md:h-[227px] md:w-[40%] rounded-3xl overflow-hidden'>
                     <img src="https://tourland.uz/assets/xitoyta-J6lzAjoF.jpeg" className='w-full h-full object-cover object-center' alt="" />
                 </div>
-                <div className='flex flex-col justify-around mt-6 md:mt-0'>
+                <div className='flex flex-col justify-around md:w-full lg:w-8/12 mt-6 md:mt-0'>
                     <div className='flex flex-row justify-between items-center px-6'>
                         <div>
-                            <h3 className='font-bold'>Chinese cuisine</h3>
+                            <h3 className='font-bold'>{t('service-item-five-title')}</h3>
                         </div>
                         <button
                             className="h-10 flex justify-center items-center bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black px-4 md:mt-0"
                         >
-                            Explore More
+                            {t('explore-more')}
                         </button>
                     </div>
-                    <p className='text-slate-400 text-sm px-6'>The Diversity of Chinese Cuisine</p>
+                    <p className='text-slate-400 text-sm px-6'>{t('service-item-five-short')}</p>
                     <p className='text-slate-400 text-sm p-6 leading-8'>
-                        Chinese cuisine is famous worldwide for its diversity of dishes. Each region is known for its unique dishes, for example, Sichuan cuisine is known for its spiciness, while Beijing is famous for Peking duck.
+                        {t('service-item-five-text')}
                     </p>
                     <hr className='mx-4'/>
                     <div className='flex justify-between px-6 py-4'>
@@ -151,29 +154,29 @@ function Services() {
                     </div>
                     <hr className='mx-4'/>
                     <div className='p-4'>
-                        <a href="#" className='text-blue-300'>Need Directions? <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="inline-block text-2xl transform transition-transform duration-300 group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"></path></svg> </a>
+                        <a href="#" className='text-blue-300'>{t('need-directions')}<svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="inline-block text-2xl transform transition-transform duration-300 group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"></path></svg> </a>
                     </div>
                 </div>
             </div>
             <hr className='my-8' />
             <div className='flex flex-col md:flex-row justify-between'>
-                <div className='h-[370px] md:h-[227px] md:w-[70%]  rounded-3xl overflow-hidden'>
+                <div className='h-[370px] md:h-[227px] md:w-[70%] lg:w-4/12  rounded-3xl overflow-hidden'>
                     <img src="https://tourland.uz/assets/panda-mRCbW3Hl.jpg" className='w-full h-full object-cover object-center' alt="" />
                 </div>
-                <div className='flex flex-col justify-around mt-6 md:mt-0'>
+                <div className='flex flex-col justify-around md:w-full lg:w-8/12 mt-6 md:mt-0'>
                     <div className='flex flex-row justify-between items-center px-6'>
                         <div>
-                            <h3 className='font-bold'>The homeland of pandas</h3>
+                            <h3 className='font-bold'>{t('service-item-six-title')}</h3>
                         </div>
                         <button
                             className="h-10 flex justify-center items-center bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black px-4 md:mt-0"
                         >
-                            Explore More
+                            {t('explore-more')}
                         </button>
                     </div>
-                    <p className='text-slate-400 text-sm px-6'>Pandas – A Diplomatic Symbol of China</p>
+                    <p className='text-slate-400 text-sm px-6'>{t('service-item-six-short')}</p>
                     <p className='text-slate-400 text-sm p-6 leading-8'>
-                        Giant pandas play an important role in Chinese diplomacy. China has temporarily leased its pandas to other countries to strengthen diplomatic relations. This is known as panda diplomacy and is used to enhance China's relationships with international partners. The leased pandas can be seen in various zoos around the world, many of them in the USA, Japan, and European countries.
+                        {t('service-item-six-text')}
                     </p>
                     <hr className='mx-4'/>
                     <div className='flex justify-between px-6 py-4'>
@@ -183,7 +186,7 @@ function Services() {
                     </div>
                     <hr className='mx-4'/>
                     <div className='p-4'>
-                        <a href="#" className='text-blue-300'>Need Directions? <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="inline-block text-2xl transform transition-transform duration-300 group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"></path></svg> </a>
+                        <a href="#" className='text-blue-300'>{t('need-directions')}<svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="inline-block text-2xl transform transition-transform duration-300 group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"></path></svg> </a>
                     </div>
                 </div>
             </div>

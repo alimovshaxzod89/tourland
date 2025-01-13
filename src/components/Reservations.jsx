@@ -1,22 +1,24 @@
 import React from 'react';
 import '../styles/components/Reservations.css';
+import { useTranslation } from 'react-i18next';
 
 function Reservations() {
+  const {t, i18n} = useTranslation();
   return (
     <>
       <div className="reservations flex flex-col items-center justify-center h-[608px] bg-cover bg-no-repeat bg-center">
         <h4 className="text-white text-center text-[14px] sm:text-xl">
-          Book Profered Deal Here
+          {t('booking-text')}
         </h4>
         <div className="h-[2px] bg-[#fafafa] w-[100px] mt-6 mb-10"></div>
         <h2 className="sm:text-5xl text-2xl text-center font-bold text-white mb-16">
-          Make Your Reservation
+          {t('booking-title')}
         </h2>
         <a
           href="#info"
           className="bg-white text-main text-[14px] rounded-3xl py-3 px-8 hover:bg-main hover:text-white transition-colors duration-300"
         >
-          Discover More
+          {t('booking-button')}
         </a>
       </div>
       <div className="-mt-20" id="info">
@@ -37,7 +39,7 @@ function Reservations() {
               </svg>
             </div>
             <h2 className="font-bold text-center text-[16px] sm:text-[20px] text-[#2a2a2a]">
-              Make a Phone Call
+              {t('booking-phone')}
             </h2>
             <a className="text-main text-center" href="tel:+998771113777">
               <p style={{color: "rgb(168, 202, 61)"}}>+998 77 111 37 77</p>
@@ -60,7 +62,7 @@ function Reservations() {
               </svg>
             </div>
             <h2 className="font-bold text-center text-[16px] sm:text-[20px] text-[#2a2a2a]">
-              Contact Us via Email
+              {t('booking-email')}
             </h2>
             <a className="text-main text-center" href="">
               <p style={{color: "rgb(168, 202, 61)"}}>tourland@mail.ru</p>
@@ -82,7 +84,7 @@ function Reservations() {
               </svg>
             </div>
             <h2 className="font-bold text-center text-[16px] sm:text-[20px] text-[#2a2a2a]">
-              Visit Our Offices
+              {t('booking-location')}
             </h2>
             <a
               className="text-main text-center"
@@ -91,7 +93,7 @@ function Reservations() {
               rel="noopener noreferrer"
               style={{color: "rgb(168, 202, 61)"}}
             >
-              Yakkasaray District, 1 Borijar Street.{' '}
+              {t('booking-location-two')}{' '}
             </a>
           </div>
         </div>

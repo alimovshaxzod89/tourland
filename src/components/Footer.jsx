@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+  const {t, i18n} = useTranslation();
   return (
     <div
       className="relative pt-8 pb-6"
@@ -10,10 +12,10 @@ function Footer() {
         <div className="flex flex-wrap">
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl font-semibold text-white">
-              Tourland guarantees quality and reliable service.{' '}
+              {t('footer-title')}
             </h4>
             <h5 className="text-lg mt-0 mb-2 text-white">
-              You deserve the best, Tourland is the best choice!
+              {t('footer-text')}
             </h5>
             <div className="mt-6 flex gap-2 ">
               <button
@@ -51,7 +53,7 @@ function Footer() {
             <div className="flex flex-wrap items-top mb-6">
               <div className="w-full lg:w-4/12 px-4 ml-auto">
                 <span className="block uppercase text-white text-sm font-semibold mb-2">
-                  Useful Links
+                  {t('links')}
                 </span>
                 <ul className="list-unstyled">
                   <li>
@@ -59,7 +61,7 @@ function Footer() {
                       className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
                     >
-                      Bosh Sahifa
+                      {t('footer-home')}
                     </a>
                   </li>
                   <li>
@@ -67,14 +69,14 @@ function Footer() {
                       className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
                     >
-                      Biz Haqimizda
+                      {t('footer-about')}
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="w-full lg:w-4/12 px-4">
                 <span className="block uppercase text-white text-sm font-semibold mb-2">
-                  Other Resources
+                  {t()}
                 </span>
                 <ul className="list-unstyled">
                   <li>
@@ -82,7 +84,7 @@ function Footer() {
                       className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
                     >
-                      Turlar
+                      {t('footer-about')}
                     </a>
                   </li>
                   <li>
@@ -90,7 +92,7 @@ function Footer() {
                       className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
                     >
-                      Kontaktlar
+                      {t('footer-contacts')}
                     </a>
                   </li>
                 </ul>

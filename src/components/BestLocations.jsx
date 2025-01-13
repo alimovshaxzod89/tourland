@@ -1,34 +1,36 @@
 import React, { useState } from "react";
-
-const images = [
-  {
-    id: 1,
-    src: "https://tourland.uz/assets/xitoy1-CA1GqbQ_.jpg",
-    title: "Nanjing",
-    population: "Population: 2M",
-  },
-  {
-    id: 2,
-    src: "https://tourland.uz/assets/prmu-CG7QRBBd.jpeg",
-    title: "Zhangjiajie",
-    population: "Population: 1M",
-  },
-  {
-    id: 3,
-    src: "https://tourland.uz/assets/qasir-CCVsTARy.webp",
-    title: "Hangzhou",
-    population: "Population: 3M",
-  },
-  {
-    id: 4,
-    src: "https://tourland.uz/assets/banbuk2-BdPGPNrO.jpeg",
-    title: "Bamboo Forest",
-    population: "Population: 500K",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const Gallery = () => {
   const [activeId, setActiveId] = useState(1);
+  const {t, i18n} = useTranslation();
+
+  const images = [
+    {
+      id: 1,
+      src: "https://tourland.uz/assets/xitoy1-CA1GqbQ_.jpg",
+      title: "Nanjing",
+      population: `${t('population')}: 2M`,
+    },
+    {
+      id: 2,
+      src: "https://tourland.uz/assets/prmu-CG7QRBBd.jpeg",
+      title: "Zhangjiajie",
+      population: `${t('population')}: 1M`,
+    },
+    {
+      id: 3,
+      src: "https://tourland.uz/assets/qasir-CCVsTARy.webp",
+      title: "Hangzhou",
+      population: `${t('population')}: 3M`,
+    },
+    {
+      id: 4,
+      src: "https://tourland.uz/assets/banbuk2-BdPGPNrO.jpeg",
+      title: "Bamboo Forest",
+      population: `${t('population')}: 500K`,
+    },
+  ];
 
   const handleImageClick = (id) => {
     setActiveId(id);
@@ -37,10 +39,10 @@ const Gallery = () => {
   return (
     <div className="max-w-[1280px] px-5 mx-auto">
       <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
-        Best Locations
+        {t('best-locations-title')}
       </h2>
       <p className="text-center text-[12px] sm:text-[15px] text-slate-400 max-w-[627px] mx-auto mt-6 mb-20">
-        Discover the best offers in each city, curated just for you. Immerse yourself in a <br /> world of savings and indulge in unparalleled experiences.
+        {t('best-locations-text')}
       </p>
       <div className="flex justify-center space-x-4 p-4 overflow-x-auto">
         {images.map((image) => (

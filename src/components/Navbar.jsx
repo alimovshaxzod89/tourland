@@ -2,9 +2,15 @@ import React, { useEffect, useState } from 'react';
 import '../styles/components/Navbar.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const {t, i18n} = useTranslation();
+  const handleChangeLang = (event) => {
+    const selectedLang = event;
+    i18n.changeLanguage(selectedLang)
+  }
 
   useEffect(() => {
     AOS.init({
@@ -30,18 +36,18 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden lg:flex space-x-9 items-center">
           <div className="flex gap-4 space-x-3">
-            <a href="#home" className="menu_items hover:text-slate-500">Home</a>
-            <a href="#about" className="menu_items hover:text-slate-500">About</a>
-            <a href="#tours" className="menu_items hover:text-slate-500">Tours</a>
-            <a href="#contact" className="menu_items hover:text-slate-500">Contact</a>
+            <a href="#home" className="menu_items hover:text-slate-500"> {t('Home')} </a>
+            <a href="#about" className="menu_items hover:text-slate-500">{t('About')}</a>
+            <a href="#tours" className="menu_items hover:text-slate-500">{t('Tours')}</a>
+            <a href="#contact" className="menu_items hover:text-slate-500">{t('Contact')}</a>
           </div>
         </div>
 
         <div className="hidden lg:flex space-x-9 items-center">
           <div className="flex space-x-3">
-            <a href="#ru" className="menu_items hover:text-slate-500">ru</a>
-            <a href="#eng" className="menu_items hover:text-slate-500">eng</a>
-            <a href="#uz" className="menu_items hover:text-slate-500">uz</a>
+            <a href="#ru" className="menu_items hover:text-slate-500" onClick={() => handleChangeLang('ru')}>ru</a>
+            <a href="#eng" className="menu_items hover:text-slate-500" onClick={() => handleChangeLang('eng')}>eng</a>
+            <a href="#uz" className="menu_items hover:text-slate-500" onClick={() => handleChangeLang('uz')}>uz</a>
           </div>
           <div className="flex space-x-3">
             <a href="#" className="p-2 text-center rounded font-bold">

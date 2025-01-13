@@ -5,18 +5,19 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import '../styles/components/Destinations.css';
+import { useTranslation } from 'react-i18next';
 
 function Destinations() {
+
+  const {t, i18n} = useTranslation();
   return (
     <div className="mb-10 mt-40">
       <div className="max-w-[1380px] px-5 mx-auto">
         <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
-          Top 10 Beautiful Destinations for Unforgettable Travels
+          {t('destinations-title')}
         </h2>
         <p className="text-center text-[12px] sm:text-[15px] text-[#01294c] max-w-[627px] mx-auto mt-6 mb-20">
-          Every week, new opportunities and unexpected adventures await you!
-          Each city reveals its hidden beauty, offering you new adventures. Feel
-          like you are part of these wonders!
+          {t('destinations-text')}
         </p>
 
         <Swiper

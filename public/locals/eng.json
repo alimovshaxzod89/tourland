@@ -1,0 +1,105 @@
+{
+    "Home": "Home",
+    "About": "About",
+    "Tours": "Tours",
+    "Contact": "Contact",
+
+    "hero-text": "Experience the beauty of the East with us!",
+    "hero-title": "China",
+    "hero-button-title": "Contact us",
+
+    "destinations-title": "Top 10 Beautiful Destinations for Unforgettable Travels",
+    "destinations-text": "Every week, new opportunities and unexpected adventures await you! Each city reveals its hidden beauty, offering you new adventures. Feel like you are part of these wonders!",
+
+    "about-title": "We offer exclusive trips to these destinations!",
+    "about-text": "We organize comfortable and safe trips to Chinese cities just for you!",
+    "firstItem":{
+        "title": "Shenzhen",
+        "checkIns": "Check Ins",
+        "benefits": {
+            "0":"Best Prices",
+            "1":"Short Processing Time",
+            "2": "Trustworthy Assistance"
+        }
+    },
+    "secondItem": {
+        "title": "Maldives"
+    },
+    "thirdItem": {
+        "title": "Bali"
+    },
+    "fourthItem": {
+        "title": "Paris"
+    },
+    "fifth": {
+        "title": "Dubai"
+    },
+    "sixth": {
+        "title": "Tokyo"
+    },
+    "benifit-support": "Benefits of visa support",
+
+    "services-title": "Find Tickets With us Easily and at a Low Price",
+    "services-text": "Find the best deals on railway and airplane tickets in each city, carefully selected for you.",
+    "service-item-one-title": "Cheap Railway Tickets With Us",
+    "service-item-one-short": "Whole world",
+    "service-item-one-text": "Embark on a railway adventure and explore destinations worldwide. Whether its the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network.",
+    "service-item-two-title": "Discover Exciting Air Travel Deals",
+    "service-item-two-short": "Global Destinations",
+    "service-item-two-text": "Embark on a railway adventure and explore destinations worldwide. Whether its the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network.",
+    "service-item-three-title": "Tea culture",
+    "service-item-three-short": "Chinese Tea Culture",
+    "service-item-three-text": "Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit.",
+    "service-item-four-title": "The MIddle Kingdom",
+    "service-item-four-short": "China, The Middle Kingdom",
+    "service-item-four-text": "(In Chinese, Tiānxià — 天下) is a concept of great significance in Chinese culture and history. This ancient phrase is used to describe China and the worldview associated with it. The concept of the Middle Kingdom developed during the imperial era of China, where it was seen as the place ruled by Heaven (Tian), and this rule was considered to extend to everything on Earth.",
+    "service-item-five-title": "Chinese cuisine",
+    "service-item-five-short": "The Diversity of Chinese Cuisine",
+    "service-item-five-text": "Chinese cuisine is famous worldwide for its diversity of dishes. Each region is known for its unique dishes, for example, Sichuan cuisine is known for its spiciness, while Beijing is famous for Peking duck.",
+    "service-item-six-title": "The homeland of pandas",
+    "service-item-six-short": "Pandas - A Diplomatic Symbol of China",
+    "service-item-six-text": "Giant pandas play an important role in Chinese diplomacy. China has temporarily leased its pandas to other countries to strengthen diplomatic relations. This is known as panda diplomacy and is used to enhance China's relationships with international partners. The leased pandas can be seen in various zoos around the world, many of them in the USA, Japan, and European countries.",
+    "explore-more": "Explore More" ,
+    "interesting-facts": "Interesting facts about China",
+    "interesting-facts-text": "China has a unique garden culture and history. In this section, we will provide you with interesting information.",
+    "need-directions": "Need Directions ?",
+    "mln": "M",
+    "km": "km<sub>2<sub>",
+
+    "best-locations-title": "Best Locations",
+    "best-locations-text": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
+    "population": "Population",
+
+    "booking-text": "Book Prefered Deal Here",
+    "booking-title": "Book Prefered Deal Here",
+    "booking-button": "Discover More",
+
+    "booking-phone": "Make a Phone Call",
+    "booking-email": "Contact Us with Email",
+    "booking-location": "Visit Our Offices",
+    "booking-location-two": "Yakkasaray District, 1 Borifar Street",
+
+    "reservation-title": "Make Your Reservation Thrugh This Form",
+    "name-label": "Your Name",
+    "number-of-guests-label": "Number of Guests",
+    "destination-label": "Choose Your Destination",
+    "visa-support-label": "Choose Your Visa Support",
+    "phone-number-label": "Your Phone Number",
+    "date-label": "Check In Date",
+    "booking-submit": "Make A Reservation Now",
+    "name-placeholder": "Ex. John Smit",
+    "phone-number-placeholder": "Ex. +998 99 999 99 90",
+    "number-of-guests-placeholder": "Ex. 3 or 4 or 5",
+    "destination-placeholder": "Ex. Beijing",
+    "visa-support-placeholder": "Ex. China",
+    "date-placeholder": "дд.мм.гггг",
+
+    "footer-title": "Tourland guarantees quality and reliable service.",
+    "footer-text": "You deserve the best, Tourland is the best choice",
+    "links": "USEFUL LINKS",
+    "resources": "OTHER RESOURCES",
+    "footer-home": "Home",
+    "footer-about": "About Us",
+    "footer-tours": "Tours",
+    "footer-contacts": "Contacts"
+}
