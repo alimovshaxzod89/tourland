@@ -101,5 +101,12 @@
     "footer-home": "Home",
     "footer-about": "About Us",
     "footer-tours": "Tours",
-    "footer-contacts": "Contacts"
+    "footer-contacts": "Contacts",
+
+    "form-title": "Please fill out this form.",
+    "form-name-placeholder": "Your name",
+    "form-phone-number-placeholder": "Your phone number",
+    "form-surname-placeholder": "Your surname",
+    "form-telegram-placeholder": "Your Telegram username",
+    "form-submit-button": "Submit"
 }

@@ -99,5 +99,12 @@
     "footer-home": "Home",
     "footer-about": "About Us",
     "footer-tours": "Tours",
-    "footer-contacts": "Contacts"
+    "footer-contacts": "Contacts",
+
+    "form-title": "Пожалуйста, заполните эту форму.",
+    "form-name-placeholder": "Ваше имя",
+    "form-phone-number-placeholder": "Ваш телефон",
+    "form-surname-placeholder": "Ваша фамилия",
+    "form-telegram-placeholder": "Ваш Telegram пользователь",
+    "form-submit-button": "Отправить"
 }

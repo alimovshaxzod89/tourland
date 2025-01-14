@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../styles/components/AboutTrips.css';
 import { useTranslation } from 'react-i18next';
+import Form from './Form';
 
 
 
 
 function AboutTrips() {
   const { t } = useTranslation();
+  const [isFormOpen, setIsFormOpen] = useState(false);
 
   const tripsData = [
     {
@@ -173,6 +175,7 @@ function AboutTrips() {
                   </p>
                 ))}
                 <button
+                  onClick={() => setIsFormOpen(true)}
                   className="inline-block w-full bg-blue-300 border rounded-3xl border-blue-300 hover:bg-white text-sm text-black py-2 px-4"
                 >
                   Make A Reservation
@@ -181,6 +184,12 @@ function AboutTrips() {
             </SwiperSlide>
           ))}
         </Swiper>
+        {/* Formani ko'rsatish */}
+        {isFormOpen && (
+          <div className="">
+            <Form onClose={() => setIsFormOpen(false)} /> {/* Formni yopish funksiyasini jo'natish */}
+          </div>
+        )}
       </div>
     </div>
   );

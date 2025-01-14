@@ -100,5 +100,12 @@
     "footer-home": "Bosh Sahifa",
     "footer-about": "Biz Haqimizda",
     "footer-tours": "Turlar",
-    "footer-contacts": "Kontaktlar"
+    "footer-contacts": "Kontaktlar",
+
+    "form-title": "Itimos Formani To'ldiring",
+    "form-name-placeholder": "Ismingiz",
+    "form-phone-number-placeholder": "Telefon Raqamingiz",
+    "form-surname-placeholder": "Familiyangiz",
+    "form-telegram-placeholder": "Telegram username",
+    "form-submit-button": "Yuborish"
 }
